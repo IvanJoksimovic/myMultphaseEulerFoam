@@ -123,7 +123,7 @@ int main(int argc, char *argv[])
             {
               #include "pEqn.H"
             }
-
+            /*
             Info << "-------------------------------------------------------" << endl;
 
             Info << "Info:pRefCell = " << pRefCell << endl;
@@ -132,6 +132,7 @@ int main(int argc, char *argv[])
             Info << "Info:p_rgh[pRefCell] = " << p_rgh[pRefCell] << endl;
 
             Info << "-------------------------------------------------------" << endl;
+            */
 
             #include "DDtU.H"
         }
