@@ -15,12 +15,14 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stringTemplates.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/wordI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/int32.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pTraits.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/direction.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pTraits.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/int64.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/labelFwd.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/labelSpecific.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/scalar.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/floatScalar.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/scalarFwd.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/doubleFloat.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/products.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Scalar.H \
@@ -40,6 +42,7 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IOstream.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/bool.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/uLabel.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/uint.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/uint8.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/uint16.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/uint32.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/uint64.H \
@@ -87,6 +90,8 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/HashTableIterI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/HashTable.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/List.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UList.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/one.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/oneI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Swap.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/HashFwd.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListPolicy.H \
@@ -94,6 +99,8 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UListI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UList.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListLoopM.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/labelRange.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IntRange.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/IntRangeI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/labelRangeI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UListIO.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SLList.H \
@@ -104,8 +111,6 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/LList.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/LListIO.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SLListFwd.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/stdVectorIO.C \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/one.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/oneI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/List.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/FixedList.H \
@@ -122,8 +127,10 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UPtrListI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UPtrList.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SLPtrListFwd.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PtrListI.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/refPtr.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tmp.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tmpI.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/refPtrI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PtrList.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SLPtrList.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/LPtrList.H \
@@ -150,6 +157,8 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/MatrixSpace.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/MatrixSpaceI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TensorI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tensor.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/complex.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/complexI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triad.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triadI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/macros.H \
@@ -197,8 +206,6 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/DynamicListI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/DynamicList.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/labelList.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Switch.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tmpNrc.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/tmpNrcI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Tuple2.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Pair.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PairI.H \
@@ -277,8 +284,6 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/dimensionSets.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/scalarMatrices.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/RectangularMatrix.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/Matrix.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/complex.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/complexI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/MatrixI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/MatrixBlock.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/MatrixBlockI.H \
@@ -363,6 +368,7 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/functionObject.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SHA1Digest.H \
 $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigWriteNow.H \
 $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/sigStopAtWriteNow.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/TimeI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/demandDrivenData.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/localIOdictionary.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/data.H \
@@ -419,6 +425,8 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/ListListOps.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/faceTemplates.C \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubField.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubFieldI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/commSchedule.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/globalMeshData.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/processorTopology.H \
@@ -544,8 +552,6 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/lduMeshTemplates.C \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvBoundaryMesh.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvPatchList.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvPatch.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubField.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/SubFieldI.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvPatchFieldsFwd.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvPatchTemplates.C \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/surfaceInterpolation.H \
@@ -605,6 +611,7 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/geometricOneFieldI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/zeroField.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/zeroFieldI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UniformField.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UniformList.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/UniformFieldI.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/MULESTemplates.C \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/upwind.H \
@@ -649,6 +656,8 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PtrDynList.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PtrDynListI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clockTime.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clockValue.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clockValueI.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/clockTimeI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/PrecisionAdaptor.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvScalarMatrix.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvMatricesFwd.H \
@@ -680,13 +689,12 @@ $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/CompactListList.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/CompactListListIO.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/globalIndexI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/globalIndexTemplates.C \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIInterpolationI.H \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIInterpolation.C \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIMethod.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/pointList.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/indexedOctree.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/labelBits.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/indexedOctree.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/OFstream.H \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/fstreamPointer.H \
 $(WM_PROJECT_DIR)/src/OSspecific/POSIX/lnInclude/memInfo.H \
 $(WM_PROJECT_DIR)/src/meshTools/lnInclude/treeDataPrimitivePatch.H \
 $(WM_PROJECT_DIR)/src/meshTools/lnInclude/treeDataPrimitivePatch.C \
@@ -704,18 +712,12 @@ $(WM_PROJECT_DIR)/src/meshTools/lnInclude/surfaceLocation.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triFace.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triFaceI.H \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/triFaceTemplates.C \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIMethodI.H \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIMethod.C \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/meshTools.H \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/meshToolsTemplates.C \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitConversion.H \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIMethodNew.C \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIInterpolationParallelOps.C \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mergePoints.H \
-$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/mergePoints.C \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AABBTree.H \
-$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AABBTree.C \
+$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIInterpolationI.H \
+$(WM_PROJECT_DIR)/src/meshTools/lnInclude/AMIInterpolationTemplates.C \
 $(WM_PROJECT_DIR)/src/meshTools/lnInclude/cyclicAMIPolyPatch.H \
+$(WM_PROJECT_DIR)/src/meshTools/lnInclude/faceAreaWeightAMI.H \
+$(WM_PROJECT_DIR)/src/meshTools/lnInclude/advancingFrontAMI.H \
+$(WM_PROJECT_DIR)/src/meshTools/lnInclude/advancingFrontAMII.H \
 $(WM_PROJECT_DIR)/src/meshTools/lnInclude/cyclicAMIPolyPatchI.H \
 $(WM_PROJECT_DIR)/src/meshTools/lnInclude/cyclicAMIPolyPatchTemplates.C \
 $(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/registerSwitch.H \
@@ -756,5 +758,6 @@ $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvcFlux.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvcFluxTemplates.C \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvcAverage.H \
 $(WM_PROJECT_DIR)/src/finiteVolume/lnInclude/fvcAverage.C \
+$(WM_PROJECT_DIR)/src/OpenFOAM/lnInclude/unitConversion.H \
 
-
+#END

@@ -216,6 +216,8 @@
 
         pEqnIncomp.setReference(pRefCell, pRefValue);
 
+        fvOptions.constrain(pEqnIncomp);
+
         solve
         (
             // (
